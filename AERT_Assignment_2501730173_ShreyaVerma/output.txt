@@ -1,0 +1,55 @@
+AERT TOOLKIT OUTPUT
+
+Factorial Tests:
+factorial(0) = 1
+factorial(1) = 1
+factorial(5) = 120
+factorial(10) = 3628800
+
+Fibonacci Tests (Naive vs Memoized):
+
+n = 5
+Naive Fibonacci = 5, Calls = 15
+Memoized Fibonacci = 5, Calls = 9
+
+n = 10
+Naive Fibonacci = 55, Calls = 177
+Memoized Fibonacci = 55, Calls = 19
+
+n = 20
+Naive Fibonacci = 6765, Calls = 21891
+Memoized Fibonacci = 6765, Calls = 39
+
+n = 30
+Naive Fibonacci = 832040, Calls = 2692537
+Memoized Fibonacci = 832040, Calls = 59
+
+Tower of Hanoi (N = 3):
+Move disk 1 from A to C
+Move disk 2 from B to C
+Move disk 1 from B to A
+Move disk 3 from A to C
+Move disk 1 from C to B
+Move disk 2 from A to B
+Move disk 1 from A to C
+
+Binary Search Tests:
+
+Search key = 7
+Index = 3
+Mid indices visited = [3]
+
+Search key = 1
+Index = 0
+Mid indices visited = [3, 1, 0]
+
+Search key = 13
+Index = 6
+Mid indices visited = [3, 5, 6]
+
+Search key = 2
+Index = -1
+Mid indices visited = [3, 1, 0]
+
+Empty Array Search:
+Index = -1
