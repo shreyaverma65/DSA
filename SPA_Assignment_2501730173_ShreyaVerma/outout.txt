@@ -1,0 +1,16 @@
+Original: [5, 2, 9, 1, 5, 6]
+Insertion: [1, 2, 5, 5, 6, 9]
+Merge: [1, 2, 5, 5, 6, 9]
+Quick: [1, 2, 5, 5, 6, 9]
+
+----- PERFORMANCE -----
+
+
+SIZE = 1000
+Random:
+Insertion: 15.98 ms
+Merge: 2.0 ms
+Quick: 1.01 ms
+Sorted:
+Insertion: 0.0 ms
+Merge: 1.0 ms
